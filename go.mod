@@ -1,4 +1,4 @@
-module github.com/rajeshmag/go-sharq
+module github.com/rajeshmag/go-sharq.git
 
 go 1.17
 

@@ -9,7 +9,7 @@ It also provides HTTP client for [sharq-server](https://github.com/plivo/sharq-s
 ## Installation
 Install using go get
 ```
-go get -u github.com/rajeshmag/go-sharq
+go get -u github.com/rajeshmag/go-sharq.git
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ go get -u github.com/rajeshmag/go-sharq
 ### Initialization
 Import the library
 ```go
-import sharq "github.com/rajeshmag/go-sharq"
+import sharq "github.com/rajeshmag/go-sharq.git"
 ```
 
 Initialize the config

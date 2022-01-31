@@ -9,7 +9,7 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/pkg/errors"
 
-	"github.com/rajeshmag/go-sharq/scripts"
+	"github.com/rajeshmag/go-sharq.git/scripts"
 )
 
 type CoreClientConfig struct {

@@ -1,13 +1,14 @@
 package sharq
 
 import (
+	"errors"
 	"fmt"
 	"strconv"
 	"testing"
 	"time"
 
 	"github.com/go-redis/redis"
-	uuid "github.com/satori/go.uuid"
+	uuid "github.com/google/uuid"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
 )
@@ -44,7 +45,7 @@ func cleanUp() {
 }
 
 func newJobID() string {
-	return uuid.Must(uuid.NewV4()).String()
+	return uuid.Must(uuid.NewV4(), errors.New("not implemented")).String()
 }
 
 func TestCoreEnqueue(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/rajeshmag/go-sharq.git
+module github.com/rajeshmag/go-sharq
 
 go 1.17
 
@@ -6,7 +6,6 @@ require (
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/google/uuid v1.3.0
 	github.com/jarcoal/httpmock v1.1.0
-	github.com/karixtech/go-sharq v0.0.0-20180626172357-c3e20b846a96
 	github.com/pkg/errors v0.9.1
 	github.com/shopspring/decimal v1.3.1
 	github.com/stretchr/testify v1.5.1
